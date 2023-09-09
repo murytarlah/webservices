@@ -96,6 +96,8 @@ header a:hover {
 }
 #showcase p {
 	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 50px;
 }
 .quote button {
 	display: block;
