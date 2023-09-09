@@ -18,6 +18,15 @@ ul {
 	padding: 0;
 }
 
+p {
+	margin: 0;
+	color: black;
+}
+
+.idle {
+	color: green;
+}
+
 .button_1 {
 	height: 38px;
 	background: orangered;
@@ -92,15 +101,12 @@ header a:hover {
 #showcase p {
 	font-size: 20px;
 }
-#newsletter button,
 .quote button {
 	display: block;
 	width: 100%;
 }
-#newsletter form input[type="email"] {
-	width: 100%;
-	margin-bottom: 5px;
-}
+/* newsletter */
+
 #newsletter {
 	padding: 15px;
 	color: white;
@@ -114,7 +120,7 @@ header a:hover {
 	margin-top: 15px;
 }
 #newsletter input[type="email"] {
-	padding: 4px;
+	padding: 4.5px;
 	height: 25px;
 	width: 250px;
 }
@@ -175,6 +181,7 @@ footer {
 	header nav li,
 	#newsletter h1,
 	#newletter form,
+	/* #newsletter button, */
 	#boxes .box,
 	article#main-col,
 	aside#sidebar {
@@ -188,4 +195,8 @@ footer {
 	#showcase {
 		margin-top: 40px;
 	}
+	/* #newsletter input[type="email"] {
+		width: 100%;
+		margin-bottom: 5px;
+	} */
 }
