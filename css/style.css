@@ -23,10 +23,6 @@ p {
 	color: black;
 }
 
-.idle {
-	color: green;
-}
-
 .button_1 {
 	height: 38px;
 	background: orangered;
@@ -105,8 +101,8 @@ header a:hover {
 	display: block;
 	width: 100%;
 }
-/* newsletter */
 
+/* newsletter */
 #newsletter {
 	padding: 15px;
 	color: white;
@@ -180,8 +176,7 @@ footer {
 	header nav,
 	header nav li,
 	#newsletter h1,
-	#newletter form,
-	/* #newsletter button, */
+	#newsletter form,
 	#boxes .box,
 	article#main-col,
 	aside#sidebar {
@@ -189,14 +184,24 @@ footer {
 		text-align: center;
 		width: 100%;
 	}
+
 	header {
 		padding-bottom: 20px;
 	}
-	#showcase {
+
+	#showcase h1 {
 		margin-top: 40px;
 	}
-	/* #newsletter input[type="email"] {
+	#newsletter button,
+	.quote button {
+		display: block;
+		width: 100%;
+	}
+
+	#newsletter form input[type="email"],
+	.quote input,
+	.quote textarea {
 		width: 100%;
 		margin-bottom: 5px;
-	} */
+	}
 }
